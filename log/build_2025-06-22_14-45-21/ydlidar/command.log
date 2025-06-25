@@ -1,0 +1,2 @@
+Invoking command in '/home/terry/robot_ws/build/ydlidar': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/terry/robot_ws/src/ydlidar -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/terry/robot_ws/install/ydlidar
+Invoked command in '/home/terry/robot_ws/build/ydlidar' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/terry/robot_ws/src/ydlidar -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/terry/robot_ws/install/ydlidar

@@ -1,0 +1,40 @@
+[1.563s] Invoking command in '/home/terry/robot_ws/src/build/serial_motor_demo': AMENT_PREFIX_PATH=/home/terry/robot_ws/src/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/terry/robot_ws/src/install/serial_motor_demo_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/terry/robot_ws/src/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/terry/robot_ws/src/build/serial_motor_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/terry/robot_ws/src/install/serial_motor_demo/lib/python3.12/site-packages:/home/terry/robot_ws/src/install/serial_motor_demo_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/terry/robot_ws/src/build/serial_motor_demo/build --no-deps symlink_data
+[1.792s] /usr/lib/python3/dist-packages/setuptools/dist.py:744: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[1.792s] !!
+[1.792s] 
+[1.792s]         ********************************************************************************
+[1.792s]         Usage of dash-separated 'script-dir' will not be supported in future
+[1.793s]         versions. Please use the underscore name 'script_dir' instead.
+[1.793s] 
+[1.797s]         This deprecation is overdue, please update your project and remove deprecated
+[1.797s]         calls to avoid build errors in the future.
+[1.798s] 
+[1.799s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[1.800s]         ********************************************************************************
+[1.801s] 
+[1.802s] !!
+[1.803s]   opt = self.warn_dash_deprecation(opt, section)
+[2.111s] running develop
+[2.441s] running egg_info
+[2.442s] creating serial_motor_demo.egg-info
+[2.471s] writing serial_motor_demo.egg-info/PKG-INFO
+[2.474s] writing dependency_links to serial_motor_demo.egg-info/dependency_links.txt
+[2.475s] writing entry points to serial_motor_demo.egg-info/entry_points.txt
+[2.476s] writing requirements to serial_motor_demo.egg-info/requires.txt
+[2.477s] writing top-level names to serial_motor_demo.egg-info/top_level.txt
+[2.478s] writing manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[2.535s] reading manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[2.537s] writing manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[2.569s] running build_ext
+[2.571s] Creating /home/terry/robot_ws/src/install/serial_motor_demo/lib/python3.12/site-packages/serial-motor-demo.egg-link (link to .)
+[2.572s] Installing driver script to /home/terry/robot_ws/src/install/serial_motor_demo/lib/serial_motor_demo
+[2.572s] Installing gui script to /home/terry/robot_ws/src/install/serial_motor_demo/lib/serial_motor_demo
+[2.572s] 
+[2.573s] Installed /home/terry/robot_ws/src/build/serial_motor_demo
+[2.573s] running symlink_data
+[2.573s] creating /home/terry/robot_ws/src/install/serial_motor_demo/share/ament_index
+[2.573s] creating /home/terry/robot_ws/src/install/serial_motor_demo/share/ament_index/resource_index
+[2.577s] creating /home/terry/robot_ws/src/install/serial_motor_demo/share/ament_index/resource_index/packages
+[2.578s] symbolically linking /home/terry/robot_ws/src/build/serial_motor_demo/resource/serial_motor_demo -> /home/terry/robot_ws/src/install/serial_motor_demo/share/ament_index/resource_index/packages
+[2.580s] symbolically linking /home/terry/robot_ws/src/build/serial_motor_demo/package.xml -> /home/terry/robot_ws/src/install/serial_motor_demo/share/serial_motor_demo
+[2.686s] Invoked command in '/home/terry/robot_ws/src/build/serial_motor_demo' returned '0': AMENT_PREFIX_PATH=/home/terry/robot_ws/src/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/terry/robot_ws/src/install/serial_motor_demo_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/terry/robot_ws/src/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/terry/robot_ws/src/build/serial_motor_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/terry/robot_ws/src/install/serial_motor_demo/lib/python3.12/site-packages:/home/terry/robot_ws/src/install/serial_motor_demo_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/terry/robot_ws/src/build/serial_motor_demo/build --no-deps symlink_data

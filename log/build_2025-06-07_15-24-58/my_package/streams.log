@@ -1,0 +1,47 @@
+[0.024s] Invoking command in '/home/terry/robot_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/terry/robot_ws/src/my_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/terry/robot_ws/install/my_package
+[0.580s] -- The C compiler identification is GNU 13.3.0
+[0.963s] -- The CXX compiler identification is GNU 13.3.0
+[1.015s] -- Detecting C compiler ABI info
+[1.228s] -- Detecting C compiler ABI info - done
+[1.244s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.250s] -- Detecting C compile features
+[1.251s] -- Detecting C compile features - done
+[1.275s] -- Detecting CXX compiler ABI info
+[1.462s] -- Detecting CXX compiler ABI info - done
+[1.478s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.478s] -- Detecting CXX compile features
+[1.479s] -- Detecting CXX compile features - done
+[1.491s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.728s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.934s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.003s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.206s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.206s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.208s] -- Added test 'lint_cmake' to check CMake code style
+[2.209s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.214s] -- Added test 'xmllint' to check XML markup files
+[2.217s] -- Configuring done (2.1s)
+[2.222s] -- Generating done (0.0s)
+[2.224s] -- Build files have been written to: /home/terry/robot_ws/build/my_package
+[2.233s] Invoked command in '/home/terry/robot_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/terry/robot_ws/src/my_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/terry/robot_ws/install/my_package
+[2.235s] Invoking command in '/home/terry/robot_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/terry/robot_ws/build/my_package -- -j4 -l4
+[2.304s] Invoked command in '/home/terry/robot_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/terry/robot_ws/build/my_package -- -j4 -l4
+[2.322s] Invoking command in '/home/terry/robot_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/terry/robot_ws/build/my_package
+[2.336s] -- Install configuration: ""
+[2.337s] -- Execute custom install script
+[2.337s] -- Symlinking: /home/terry/robot_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[2.354s] -- Symlinking: /home/terry/robot_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[2.372s] -- Symlinking: /home/terry/robot_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[2.389s] -- Symlinking: /home/terry/robot_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[2.406s] -- Symlinking: /home/terry/robot_ws/install/my_package/share/my_package/environment/path.sh
+[2.423s] -- Symlinking: /home/terry/robot_ws/install/my_package/share/my_package/environment/path.dsv
+[2.440s] -- Symlinking: /home/terry/robot_ws/install/my_package/share/my_package/local_setup.bash
+[2.458s] -- Symlinking: /home/terry/robot_ws/install/my_package/share/my_package/local_setup.sh
+[2.474s] -- Symlinking: /home/terry/robot_ws/install/my_package/share/my_package/local_setup.zsh
+[2.491s] -- Symlinking: /home/terry/robot_ws/install/my_package/share/my_package/local_setup.dsv
+[2.509s] -- Symlinking: /home/terry/robot_ws/install/my_package/share/my_package/package.dsv
+[2.525s] -- Symlinking: /home/terry/robot_ws/install/my_package/share/ament_index/resource_index/packages/my_package
+[2.543s] -- Symlinking: /home/terry/robot_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[2.561s] -- Symlinking: /home/terry/robot_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[2.577s] -- Symlinking: /home/terry/robot_ws/install/my_package/share/my_package/package.xml
+[2.597s] Invoked command in '/home/terry/robot_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/terry/robot_ws/build/my_package

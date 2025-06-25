@@ -1,0 +1,162 @@
+[0.074s] Invoking command in '/home/terry/robot_ws/src/build/ydlidar_sdk': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/terry/robot_ws/src/build/ydlidar_sdk -- -j4 -l4
+[0.351s] [ 39%] Built target ydlidar_sdk
+[0.432s] [ 43%] Built target et_test
+[0.458s] [ 47%] Built target gs_ota
+[0.465s] [ 50%] Built target gs_test
+[0.470s] [ 54%] Built target gs_restart
+[0.559s] [ 58%] Built target gs_test2
+[0.622s] [ 62%] Built target sdm18_test
+[0.630s] [ 66%] Built target scl_test
+[0.632s] [ 69%] Built target sdm_test
+[0.662s] [ 73%] Built target tea_test
+[0.736s] [ 77%] Built target tof_test
+[0.777s] [ 81%] Built target tri_and_gs_test
+[0.778s] [ 84%] Built target tia_test
+[0.781s] [ 88%] Built target tmini_test
+[0.814s] [ 92%] Built target tri_restart
+[0.833s] [ 96%] Built target lidar_c_api_test
+[0.851s] [100%] Built target tri_test
+[0.877s] Invoked command in '/home/terry/robot_ws/src/build/ydlidar_sdk' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/terry/robot_ws/src/build/ydlidar_sdk -- -j4 -l4
+[0.878s] Invoking command in '/home/terry/robot_ws/src/build/ydlidar_sdk': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/terry/robot_ws/src/build/ydlidar_sdk
+[0.895s] -- Install configuration: ""
+[0.897s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/include/core/base/datatype.h
+[0.897s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/include/core/base/locker.h
+[0.898s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/include/core/base/thread.h
+[0.898s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/include/core/base/timer.h
+[0.899s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/include/core/base/typedef.h
+[0.899s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/include/core/base/utils.h
+[0.900s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/include/core/base/v8stdint.h
+[0.900s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/include/core/base/ydlidar.h
+[0.901s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/include/core/common/ChannelDevice.h
+[0.902s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/include/core/common/DriverInterface.h
+[0.902s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/include/core/common/ydlidar_datatype.h
+[0.903s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/include/core/common/ydlidar_def.h
+[0.903s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/include/core/common/ydlidar_help.h
+[0.904s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/include/core/common/ydlidar_protocol.h
+[0.904s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/include/core/json/cJSON.h
+[0.905s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/include/core/math/angles.h
+[0.906s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/include/core/network/ActiveSocket.h
+[0.906s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/include/core/network/PassiveSocket.h
+[0.907s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/include/core/network/SimpleSocket.h
+[0.908s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/include/core/network/StatTimer.h
+[0.908s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/include/core/serial/common.h
+[0.909s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/include/core/serial/serial.h
+[0.909s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/include/core/serial/impl/unix/lock.h
+[0.910s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/include/core/serial/impl/unix/unix.h
+[0.910s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/include/core/serial/impl/unix/unix_serial.h
+[0.911s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/include/src/CYdLidar.h
+[0.911s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/include/src/DTSLidarDriver.h
+[0.912s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/include/src/ETLidarDriver.h
+[0.912s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/include/src/GSLidarDriver.h
+[0.913s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/include/src/SDMLidarDriver.h
+[0.914s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/include/src/TiaLidarDriver.h
+[0.914s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/include/src/YDlidarDriver.h
+[0.914s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/include/src/ydlidar_sdk.h
+[0.915s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/include/src/filters/FilterInterface.h
+[0.915s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/include/src/filters/NoiseFilter.h
+[0.916s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/include/src/filters/StrongLightFilter.h
+[0.917s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/include/ydlidar_config.h
+[0.917s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/lib/libydlidar_sdk.a
+[0.923s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/lib/pkgconfig/YDLIDAR_SDK.pc
+[0.924s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/lib/cmake/ydlidar_sdk/ydlidar_sdkConfig.cmake
+[0.925s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/lib/cmake/ydlidar_sdk/ydlidar_sdkTargets.cmake
+[0.926s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/lib/cmake/ydlidar_sdk/ydlidar_sdkConfigVersion.cmake
+[0.926s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/FindYDLIDAR_SDK.cmake
+[0.927s] -- Up-to-date: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK
+[0.927s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/common
+[0.928s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/common/ydlidar_base.cmake
+[0.928s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/common/ydlidar_parse.cmake
+[0.928s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/install_package.cmake
+[0.929s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/cmake_uninstall.cmake.in
+[0.929s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/PackageConfigVersion.cmake.in
+[0.929s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/PkgConfig.pc.in
+[0.930s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/FindPackage.cmake.in
+[0.930s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/PackageConfig.cmake.in
+[0.930s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/script_show_final_summary.cmake
+[0.931s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/LICENSE.txt
+[0.931s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/README.md
+[0.932s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc
+[0.932s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs
+[0.933s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Hardware_FAQs_cn.md
+[0.933s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Software_FAQs_cn.md
+[0.934s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Software_FAQs.md
+[0.934s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/General_FAQs.md
+[0.934s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Hardware_FAQs.md
+[0.935s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/General_FAQs_cn.md
+[0.935s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/README.md
+[0.936s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar_SDK_Communication_Protocol.pdf
+[0.938s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/Diagram.md
+[0.939s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar-SDK-Communication-Protocol.html
+[0.939s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar-SDK-Communication-Protocol.pdf
+[0.940s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar-SDK-Communication-Protocol.md
+[0.941s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto
+[0.941s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_create_a_csharp_project.md
+[0.942s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_build_and_install.md
+[0.942s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_create_a_pull.md
+[0.942s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/README.md
+[0.943s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_solve_slow_pull_from_cn.md
+[0.943s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_gerenrate_vs_project_by_cmake.md
+[0.944s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_build_and_debug_using_vscode.md
+[0.944s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_create_a_udev_rules.md
+[0.945s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images
+[0.945s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/ydlidar_lidar_monitor.png
+[0.946s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_running.png
+[0.947s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/sdk_scanning.png
+[0.947s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/sdk_init.png
+[0.948s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_build.png
+[0.948s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/vscode
+[0.949s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/vscode/run_tasks.jpg
+[0.951s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/vscode/tasks.png
+[0.953s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/ttyUSB0.png
+[0.954s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_project.png
+[0.954s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_exception.png
+[0.955s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/ttyUSB1.png
+[0.956s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/cpack.png
+[0.956s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/sequence.png
+[0.957s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_library.png
+[0.957s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/Tutorials.md
+[0.958s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/SDK.pdf
+[0.962s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/README.md
+[0.963s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLIDAR_SDK_API_for_Developers.md
+[0.963s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials
+[0.963s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_tutorial_c++.md
+[0.964s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_tutorial_python.md
+[0.964s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_tutorial_c.md
+[0.965s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/examine_the_simple_lidar_tutorial.md
+[0.965s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_network_adapter_tutorial_c++.md
+[0.966s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/quickstart
+[0.966s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/quickstart/ydlidar_sdk_software_installation_guide.md
+[0.967s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/quickstart/README.md
+[0.967s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/Dataset.md
+[0.967s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images
+[0.968s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/system_workflow.png
+[0.968s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/EAI.png
+[0.970s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sdk_architecture.png
+[0.971s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sdk_scanning.png
+[0.972s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sdk_init.png
+[0.972s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/YDLidar.png
+[0.972s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/frame.png
+[0.973s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/angle_q2.png
+[0.973s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/FlowChart.png
+[0.974s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/frame_intensity.png
+[0.975s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/YDLidar.jpg
+[0.975s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/communication_mechanism.png
+[0.976s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sequence.png
+[0.977s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/startup/initenv.sh
+[0.979s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/bin/et_test
+[0.982s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/bin/gs_ota
+[0.985s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/bin/gs_restart
+[0.989s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/bin/gs_test
+[0.990s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/bin/gs_test2
+[0.996s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/bin/scl_test
+[0.996s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/bin/sdm18_test
+[1.001s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/bin/sdm_test
+[1.002s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/bin/tea_test
+[1.004s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/bin/tia_test
+[1.007s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/bin/tmini_test
+[1.010s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/bin/tof_test
+[1.015s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/bin/tri_and_gs_test
+[1.015s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/bin/tri_restart
+[1.018s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/bin/tri_test
+[1.021s] -- Installing: /home/terry/robot_ws/src/install/ydlidar_sdk/bin/lidar_c_api_test
+[1.029s] Invoked command in '/home/terry/robot_ws/src/build/ydlidar_sdk' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/terry/robot_ws/src/build/ydlidar_sdk

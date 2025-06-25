@@ -1,0 +1,48 @@
+[0.028s] Invoking command in '/home/terry/robot_ws/src/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/terry/robot_ws/install/serial_motor_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/terry/robot_ws/src/ydlidar_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/terry/robot_ws/src/install/ydlidar_ros2_driver
+[0.181s] -- The C compiler identification is GNU 13.3.0
+[0.331s] -- The CXX compiler identification is GNU 13.3.0
+[0.364s] -- Detecting C compiler ABI info
+[0.574s] -- Detecting C compiler ABI info - done
+[0.593s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.594s] -- Detecting C compile features
+[0.599s] -- Detecting C compile features - done
+[0.624s] -- Detecting CXX compiler ABI info
+[0.890s] -- Detecting CXX compiler ABI info - done
+[0.930s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.931s] -- Detecting CXX compile features
+[0.933s] -- Detecting CXX compile features - done
+[0.938s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.300s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.504s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.570s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.637s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.664s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.697s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.741s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.879s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.882s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.060s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.095s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.153s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.289s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[2.409s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[2.440s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[2.479s] [31mCMake Error at CMakeLists.txt:25 (find_package):
+[2.479s]   By not providing "Findydlidar_sdk.cmake" in CMAKE_MODULE_PATH this project
+[2.479s]   has asked CMake to find a package configuration file provided by
+[2.479s]   "ydlidar_sdk", but CMake did not find one.
+[2.479s] 
+[2.481s]   Could not find a package configuration file provided by "ydlidar_sdk" with
+[2.481s]   any of the following names:
+[2.481s] 
+[2.481s]     ydlidar_sdkConfig.cmake
+[2.481s]     ydlidar_sdk-config.cmake
+[2.481s] 
+[2.482s]   Add the installation prefix of "ydlidar_sdk" to CMAKE_PREFIX_PATH or set
+[2.482s]   "ydlidar_sdk_DIR" to a directory containing one of the above files.  If
+[2.482s]   "ydlidar_sdk" provides a separate development package or SDK, be sure it
+[2.482s]   has been installed.
+[2.482s] 
+[2.482s] [0m
+[2.485s] -- Configuring incomplete, errors occurred!
+[2.526s] Invoked command in '/home/terry/robot_ws/src/build/ydlidar_ros2_driver' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/terry/robot_ws/install/serial_motor_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/terry/robot_ws/src/ydlidar_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/terry/robot_ws/src/install/ydlidar_ros2_driver

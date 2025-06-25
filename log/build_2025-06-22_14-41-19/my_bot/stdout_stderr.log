@@ -1,0 +1,23 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/terry/robot_ws/install/my_bot/share/my_bot/config/empty.yaml
+-- Symlinking: /home/terry/robot_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro
+-- Symlinking: /home/terry/robot_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro
+-- Symlinking: /home/terry/robot_ws/install/my_bot/share/my_bot/description/robot_core.xacro
+-- Symlinking: /home/terry/robot_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
+-- Symlinking: /home/terry/robot_ws/install/my_bot/share/my_bot/worlds/empty.world
+-- Symlinking: /home/terry/robot_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+-- Symlinking: /home/terry/robot_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+-- Symlinking: /home/terry/robot_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+-- Symlinking: /home/terry/robot_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+-- Symlinking: /home/terry/robot_ws/install/my_bot/share/my_bot/environment/path.sh
+-- Symlinking: /home/terry/robot_ws/install/my_bot/share/my_bot/environment/path.dsv
+-- Symlinking: /home/terry/robot_ws/install/my_bot/share/my_bot/local_setup.bash
+-- Symlinking: /home/terry/robot_ws/install/my_bot/share/my_bot/local_setup.sh
+-- Symlinking: /home/terry/robot_ws/install/my_bot/share/my_bot/local_setup.zsh
+-- Symlinking: /home/terry/robot_ws/install/my_bot/share/my_bot/local_setup.dsv
+-- Symlinking: /home/terry/robot_ws/install/my_bot/share/my_bot/package.dsv
+-- Symlinking: /home/terry/robot_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot
+-- Symlinking: /home/terry/robot_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+-- Symlinking: /home/terry/robot_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+-- Symlinking: /home/terry/robot_ws/install/my_bot/share/my_bot/package.xml

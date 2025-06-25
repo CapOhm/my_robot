@@ -1,0 +1,33 @@
+[1.661s] Invoking command in '/home/terry/robot_ws/build/serial_motor_demo': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/terry/robot_ws/build/serial_motor_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/terry/robot_ws/install/serial_motor_demo/lib/python3.12/site-packages:/home/terry/robot_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages:/home/terry/robot_ws/build/serial_motor_demo:/home/terry/robot_ws/install/serial_motor_demo/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/terry/robot_ws/build/serial_motor_demo/build --no-deps symlink_data
+[1.930s] /usr/lib/python3/dist-packages/setuptools/dist.py:744: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[1.930s] !!
+[1.930s] 
+[1.930s]         ********************************************************************************
+[1.931s]         Usage of dash-separated 'script-dir' will not be supported in future
+[1.931s]         versions. Please use the underscore name 'script_dir' instead.
+[1.931s] 
+[1.931s]         This deprecation is overdue, please update your project and remove deprecated
+[1.931s]         calls to avoid build errors in the future.
+[1.931s] 
+[1.931s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[1.931s]         ********************************************************************************
+[1.931s] 
+[1.931s] !!
+[1.932s]   opt = self.warn_dash_deprecation(opt, section)
+[2.325s] running develop
+[2.680s] running egg_info
+[2.710s] writing serial_motor_demo.egg-info/PKG-INFO
+[2.712s] writing dependency_links to serial_motor_demo.egg-info/dependency_links.txt
+[2.717s] writing entry points to serial_motor_demo.egg-info/entry_points.txt
+[2.718s] writing requirements to serial_motor_demo.egg-info/requires.txt
+[2.719s] writing top-level names to serial_motor_demo.egg-info/top_level.txt
+[2.792s] reading manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[2.800s] writing manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[2.835s] running build_ext
+[2.836s] Creating /home/terry/robot_ws/install/serial_motor_demo/lib/python3.12/site-packages/serial-motor-demo.egg-link (link to .)
+[2.838s] Installing driver script to /home/terry/robot_ws/install/serial_motor_demo/lib/serial_motor_demo
+[2.839s] Installing gui script to /home/terry/robot_ws/install/serial_motor_demo/lib/serial_motor_demo
+[2.840s] 
+[2.842s] Installed /home/terry/robot_ws/build/serial_motor_demo
+[2.843s] running symlink_data
+[2.955s] Invoked command in '/home/terry/robot_ws/build/serial_motor_demo' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/terry/robot_ws/build/serial_motor_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/terry/robot_ws/install/serial_motor_demo/lib/python3.12/site-packages:/home/terry/robot_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages:/home/terry/robot_ws/build/serial_motor_demo:/home/terry/robot_ws/install/serial_motor_demo/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/terry/robot_ws/build/serial_motor_demo/build --no-deps symlink_data

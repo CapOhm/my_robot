@@ -1,0 +1,4 @@
+Invoking command in '/home/terry/robot_ws/build/ydlidar_sdk': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/terry/robot_ws/build/ydlidar_sdk -- -j4 -l4
+Invoked command in '/home/terry/robot_ws/build/ydlidar_sdk' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/terry/robot_ws/build/ydlidar_sdk -- -j4 -l4
+Invoking command in '/home/terry/robot_ws/build/ydlidar_sdk': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/terry/robot_ws/build/ydlidar_sdk
+Invoked command in '/home/terry/robot_ws/build/ydlidar_sdk' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/terry/robot_ws/build/ydlidar_sdk

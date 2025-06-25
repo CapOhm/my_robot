@@ -1,0 +1,33 @@
+[0.034s] Invoking command in '/home/terry/robot_ws/src/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/terry/robot_ws/install/serial_motor_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/terry/robot_ws/src/ydlidar_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/terry/robot_ws/src/install/ydlidar_ros2_driver
+[0.061s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.831s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.877s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.997s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.033s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.093s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.157s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.401s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.407s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.659s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.902s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[2.201s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[2.334s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[2.416s] [31mCMake Error at CMakeLists.txt:25 (find_package):
+[2.417s] -- Configuring incomplete, errors occurred!
+[2.420s]   By not providing "Findydlidar_sdk.cmake" in CMAKE_MODULE_PATH this project
+[2.424s]   has asked CMake to find a package configuration file provided by
+[2.428s]   "ydlidar_sdk", but CMake did not find one.
+[2.429s] 
+[2.433s]   Could not find a package configuration file provided by "ydlidar_sdk" with
+[2.437s]   any of the following names:
+[2.438s] 
+[2.439s]     ydlidar_sdkConfig.cmake
+[2.441s]     ydlidar_sdk-config.cmake
+[2.443s] 
+[2.450s]   Add the installation prefix of "ydlidar_sdk" to CMAKE_PREFIX_PATH or set
+[2.451s]   "ydlidar_sdk_DIR" to a directory containing one of the above files.  If
+[2.452s]   "ydlidar_sdk" provides a separate development package or SDK, be sure it
+[2.454s]   has been installed.
+[2.458s] 
+[2.459s] [0m
+[2.460s] Invoked command in '/home/terry/robot_ws/src/build/ydlidar_ros2_driver' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/terry/robot_ws/install/serial_motor_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/terry/robot_ws/src/ydlidar_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/terry/robot_ws/src/install/ydlidar_ros2_driver

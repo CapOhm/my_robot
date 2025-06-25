@@ -1,0 +1,40 @@
+[0.045s] Invoking command in '/home/terry/robot_ws/build/ydlidar': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/terry/robot_ws/src/ydlidar -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/terry/robot_ws/install/ydlidar
+[0.065s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.066s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.067s]   CMake.
+[0.067s] 
+[0.068s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.068s]   CMake that the project does not need compatibility with older versions.
+[0.068s] 
+[0.068s] [0m
+[0.226s] -- The C compiler identification is GNU 13.3.0
+[0.467s] -- The CXX compiler identification is GNU 13.3.0
+[0.509s] -- Detecting C compiler ABI info
+[0.780s] -- Detecting C compiler ABI info - done
+[0.798s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.799s] -- Detecting C compile features
+[0.799s] -- Detecting C compile features - done
+[0.815s] -- Detecting CXX compiler ABI info
+[1.037s] -- Detecting CXX compiler ABI info - done
+[1.058s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.059s] -- Detecting CXX compile features
+[1.060s] -- Detecting CXX compile features - done
+[1.073s] [31mCMake Error at CMakeLists.txt:6 (find_package):
+[1.073s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[1.073s]   asked CMake to find a package configuration file provided by "catkin", but
+[1.073s]   CMake did not find one.
+[1.073s] 
+[1.074s]   Could not find a package configuration file provided by "catkin" with any
+[1.074s]   of the following names:
+[1.074s] 
+[1.074s]     catkinConfig.cmake
+[1.074s]     catkin-config.cmake
+[1.074s] 
+[1.074s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[1.075s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[1.075s]   provides a separate development package or SDK, be sure it has been
+[1.075s] -- Configuring incomplete, errors occurred!
+[1.075s]   installed.
+[1.075s] 
+[1.075s] [0m
+[1.083s] Invoked command in '/home/terry/robot_ws/build/ydlidar' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/terry/robot_ws/src/ydlidar -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/terry/robot_ws/install/ydlidar

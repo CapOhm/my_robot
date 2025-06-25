@@ -1,0 +1,26 @@
+[0.028s] Invoking command in '/home/terry/robot_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/terry/robot_ws/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/terry/robot_ws/install/my_bot
+[0.716s] -- The C compiler identification is GNU 13.3.0
+[1.228s] -- The CXX compiler identification is GNU 13.3.0
+[1.266s] -- Detecting C compiler ABI info
+[1.486s] -- Detecting C compiler ABI info - done
+[1.500s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.507s] -- Detecting C compile features
+[1.509s] -- Detecting C compile features - done
+[1.525s] -- Detecting CXX compiler ABI info
+[1.771s] -- Detecting CXX compiler ABI info - done
+[1.798s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.803s] -- Detecting CXX compile features
+[1.803s] -- Detecting CXX compile features - done
+[1.817s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.146s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.294s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.344s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.569s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.579s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.579s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.581s] -- Added test 'lint_cmake' to check CMake code style
+[2.583s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.588s] -- Added test 'xmllint' to check XML markup files
+[2.592s] -- Configuring done (2.4s)
+[2.596s] -- Generating done (0.0s)
+[2.599s] -- Build files have been written to: /home/terry/robot_ws/build/my_bot

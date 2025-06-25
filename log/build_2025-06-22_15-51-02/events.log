@@ -1,0 +1,660 @@
+[0.000000] (-) TimerEvent: {}
+[0.000695] (my_bot) JobQueued: {'identifier': 'my_bot', 'dependencies': OrderedDict()}
+[0.000758] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.000785] (serial_motor_demo_msgs) JobQueued: {'identifier': 'serial_motor_demo_msgs', 'dependencies': OrderedDict()}
+[0.001079] (ydlidar_ros2_driver) JobQueued: {'identifier': 'ydlidar_ros2_driver', 'dependencies': OrderedDict()}
+[0.001243] (ydlidar_sdk) JobQueued: {'identifier': 'ydlidar_sdk', 'dependencies': OrderedDict()}
+[0.001283] (serial_motor_demo) JobQueued: {'identifier': 'serial_motor_demo', 'dependencies': OrderedDict({'serial_motor_demo_msgs': '/home/terry/robot_ws/install/serial_motor_demo_msgs'})}
+[0.001346] (serial_motor_demo_msgs) JobStarted: {'identifier': 'serial_motor_demo_msgs'}
+[0.011999] (my_bot) JobStarted: {'identifier': 'my_bot'}
+[0.019703] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.026780] (ydlidar_ros2_driver) JobStarted: {'identifier': 'ydlidar_ros2_driver'}
+[0.037875] (serial_motor_demo_msgs) JobProgress: {'identifier': 'serial_motor_demo_msgs', 'progress': 'cmake'}
+[0.039237] (serial_motor_demo_msgs) JobProgress: {'identifier': 'serial_motor_demo_msgs', 'progress': 'build'}
+[0.040353] (serial_motor_demo_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/terry/robot_ws/build/serial_motor_demo_msgs', '--', '-j4', '-l4'], 'cwd': '/home/terry/robot_ws/build/serial_motor_demo_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'terry', 'SSH_CLIENT': '192.168.2.16 59378 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/terry/robot_ws/install/serial_motor_demo_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/terry', 'OLDPWD': '/home/terry/robot_ws/src', 'SSH_TTY': '/dev/pts/4', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/terry/robot_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'terry', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '319', 'PATH': '/home/terry/.local/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/terry/robot_ws/install/serial_motor_demo:/home/terry/robot_ws/install/serial_motor_demo_msgs:/home/terry/robot_ws/install/my_package:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/terry/robot_ws/build/serial_motor_demo_msgs', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.2.16 59378 192.168.2.8 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/terry/robot_ws/build/serial_motor_demo:/home/terry/robot_ws/install/serial_motor_demo/lib/python3.12/site-packages:/home/terry/robot_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/terry/robot_ws/install/serial_motor_demo_msgs:/home/terry/robot_ws/install/my_package:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/terry/robot_ws/install/serial_motor_demo:/opt/ros/jazzy'}), 'shell': False}
+[0.045334] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'cmake'}
+[0.046780] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'build'}
+[0.048180] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/terry/robot_ws/build/my_bot', '--', '-j4', '-l4'], 'cwd': '/home/terry/robot_ws/build/my_bot', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'terry', 'SSH_CLIENT': '192.168.2.16 59378 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/terry/robot_ws/install/serial_motor_demo_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/terry', 'OLDPWD': '/home/terry/robot_ws/src', 'SSH_TTY': '/dev/pts/4', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/terry/robot_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'terry', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '319', 'PATH': '/home/terry/.local/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/terry/robot_ws/install/serial_motor_demo:/home/terry/robot_ws/install/serial_motor_demo_msgs:/home/terry/robot_ws/install/my_package:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/terry/robot_ws/build/my_bot', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.2.16 59378 192.168.2.8 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/terry/robot_ws/build/serial_motor_demo:/home/terry/robot_ws/install/serial_motor_demo/lib/python3.12/site-packages:/home/terry/robot_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/terry/robot_ws/install/serial_motor_demo_msgs:/home/terry/robot_ws/install/my_package:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/terry/robot_ws/install/serial_motor_demo:/opt/ros/jazzy'}), 'shell': False}
+[0.050930] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'cmake'}
+[0.053800] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'build'}
+[0.053953] (my_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/terry/robot_ws/build/my_package', '--', '-j4', '-l4'], 'cwd': '/home/terry/robot_ws/build/my_package', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'terry', 'SSH_CLIENT': '192.168.2.16 59378 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/terry/robot_ws/install/serial_motor_demo_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/terry', 'OLDPWD': '/home/terry/robot_ws/src', 'SSH_TTY': '/dev/pts/4', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/terry/robot_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'terry', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '319', 'PATH': '/home/terry/.local/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/terry/robot_ws/install/serial_motor_demo:/home/terry/robot_ws/install/serial_motor_demo_msgs:/home/terry/robot_ws/install/my_package:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/terry/robot_ws/build/my_package', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.2.16 59378 192.168.2.8 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/terry/robot_ws/build/serial_motor_demo:/home/terry/robot_ws/install/serial_motor_demo/lib/python3.12/site-packages:/home/terry/robot_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/terry/robot_ws/install/serial_motor_demo_msgs:/home/terry/robot_ws/install/my_package:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/terry/robot_ws/install/serial_motor_demo:/opt/ros/jazzy'}), 'shell': False}
+[0.072175] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'cmake'}
+[0.078988] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '/home/terry/robot_ws/src/ydlidar_ros2_driver', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/terry/robot_ws/install/ydlidar_ros2_driver'], 'cwd': '/home/terry/robot_ws/build/ydlidar_ros2_driver', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'terry', 'SSH_CLIENT': '192.168.2.16 59378 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/terry/robot_ws/install/serial_motor_demo_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/terry', 'OLDPWD': '/home/terry/robot_ws/src', 'SSH_TTY': '/dev/pts/4', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/terry/robot_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'terry', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '319', 'PATH': '/home/terry/.local/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/terry/robot_ws/install/serial_motor_demo:/home/terry/robot_ws/install/serial_motor_demo_msgs:/home/terry/robot_ws/install/my_package:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/terry/robot_ws/build/ydlidar_ros2_driver', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.2.16 59378 192.168.2.8 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/terry/robot_ws/build/serial_motor_demo:/home/terry/robot_ws/install/serial_motor_demo/lib/python3.12/site-packages:/home/terry/robot_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/terry/robot_ws/install/serial_motor_demo_msgs:/home/terry/robot_ws/install/my_package:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/terry/robot_ws/install/serial_motor_demo:/opt/ros/jazzy'}), 'shell': False}
+[0.099930] (-) TimerEvent: {}
+[0.106921] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.150519] (my_bot) CommandEnded: {'returncode': 0}
+[0.154983] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'install'}
+[0.177579] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/terry/robot_ws/build/my_bot'], 'cwd': '/home/terry/robot_ws/build/my_bot', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'terry', 'SSH_CLIENT': '192.168.2.16 59378 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/terry/robot_ws/install/serial_motor_demo_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/terry', 'OLDPWD': '/home/terry/robot_ws/src', 'SSH_TTY': '/dev/pts/4', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/terry/robot_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'terry', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '319', 'PATH': '/home/terry/.local/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/terry/robot_ws/install/serial_motor_demo:/home/terry/robot_ws/install/serial_motor_demo_msgs:/home/terry/robot_ws/install/my_package:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/terry/robot_ws/build/my_bot', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.2.16 59378 192.168.2.8 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/terry/robot_ws/build/serial_motor_demo:/home/terry/robot_ws/install/serial_motor_demo/lib/python3.12/site-packages:/home/terry/robot_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/terry/robot_ws/install/serial_motor_demo_msgs:/home/terry/robot_ws/install/my_package:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/terry/robot_ws/install/serial_motor_demo:/opt/ros/jazzy'}), 'shell': False}
+[0.183559] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  1%] Built target serial_motor_demo_msgs__rosidl_generator_type_description\n'}
+[0.185415] (my_package) CommandEnded: {'returncode': 0}
+[0.186137] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'install'}
+[0.188904] (my_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/terry/robot_ws/build/my_package'], 'cwd': '/home/terry/robot_ws/build/my_package', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'terry', 'SSH_CLIENT': '192.168.2.16 59378 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/terry/robot_ws/install/serial_motor_demo_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/terry', 'OLDPWD': '/home/terry/robot_ws/src', 'SSH_TTY': '/dev/pts/4', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/terry/robot_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'terry', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '319', 'PATH': '/home/terry/.local/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/terry/robot_ws/install/serial_motor_demo:/home/terry/robot_ws/install/serial_motor_demo_msgs:/home/terry/robot_ws/install/my_package:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/terry/robot_ws/build/my_package', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.2.16 59378 192.168.2.8 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/terry/robot_ws/build/serial_motor_demo:/home/terry/robot_ws/install/serial_motor_demo/lib/python3.12/site-packages:/home/terry/robot_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/terry/robot_ws/install/serial_motor_demo_msgs:/home/terry/robot_ws/install/my_package:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/terry/robot_ws/install/serial_motor_demo:/opt/ros/jazzy'}), 'shell': False}
+[0.201297] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_symlink_serial_motor_demo_msgs\n'}
+[0.201640] (-) TimerEvent: {}
+[0.207087] (my_bot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.208249] (my_bot) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.210267] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/my_bot/share/my_bot/config/empty.yaml\n'}
+[0.213319] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro\n'}
+[0.213476] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro\n'}
+[0.213604] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/my_bot/share/my_bot/description/robot_core.xacro\n'}
+[0.215489] (my_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.215885] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/my_bot/share/my_bot/launch/rsp.launch.py\n'}
+[0.216042] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/my_bot/share/my_bot/worlds/empty.world\n'}
+[0.216185] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot\n'}
+[0.216283] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot\n'}
+[0.216374] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh\n'}
+[0.216467] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv\n'}
+[0.216556] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/my_bot/share/my_bot/environment/path.sh\n'}
+[0.217580] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/my_bot/share/my_bot/environment/path.dsv\n'}
+[0.217973] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/my_bot/share/my_bot/local_setup.bash\n'}
+[0.218740] (my_package) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.219073] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/my_bot/share/my_bot/local_setup.sh\n'}
+[0.219238] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/my_bot/share/my_bot/local_setup.zsh\n'}
+[0.220070] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package\n'}
+[0.220648] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/my_bot/share/my_bot/local_setup.dsv\n'}
+[0.220781] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/terry/robot_ws/install/my_bot/share/my_bot/package.dsv\n'}
+[0.220924] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package\n'}
+[0.221543] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh\n'}
+[0.222140] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv\n'}
+[0.222764] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/my_package/share/my_package/environment/path.sh\n'}
+[0.223381] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/my_package/share/my_package/environment/path.dsv\n'}
+[0.223961] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/my_package/share/my_package/local_setup.bash\n'}
+[0.224493] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/my_package/share/my_package/local_setup.sh\n'}
+[0.231543] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/my_package/share/my_package/local_setup.zsh\n'}
+[0.231943] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/my_package/share/my_package/local_setup.dsv\n'}
+[0.232104] (my_package) StdoutLine: {'line': b'-- Symlinking: /home/terry/robot_ws/install/my_package/share/my_package/package.dsv\n'}
+[0.251488] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot\n'}
+[0.251883] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake\n'}
+[0.252025] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake\n'}
+[0.254003] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/my_bot/share/my_bot/package.xml\n'}
+[0.257242] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 22%] Built target serial_motor_demo_msgs__rosidl_generator_c\n'}
+[0.267687] (my_bot) CommandEnded: {'returncode': 0}
+[0.272571] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 24%] Built target serial_motor_demo_msgs__cpp\n'}
+[0.275955] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/my_package/share/ament_index/resource_index/packages/my_package\n'}
+[0.278602] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake\n'}
+[0.279778] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake\n'}
+[0.282087] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/my_package/share/my_package/package.xml\n'}
+[0.301802] (-) TimerEvent: {}
+[0.352607] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 33%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c\n'}
+[0.358431] (my_bot) JobEnded: {'identifier': 'my_bot', 'rc': 0}
+[0.360681] (ydlidar_sdk) JobStarted: {'identifier': 'ydlidar_sdk'}
+[0.368247] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 42%] Built target serial_motor_demo_msgs__rosidl_typesupport_c\n'}
+[0.376996] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 51%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.383653] (my_package) CommandEnded: {'returncode': 0}
+[0.403220] (-) TimerEvent: {}
+[0.449761] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[0.452813] (ydlidar_sdk) JobProgress: {'identifier': 'ydlidar_sdk', 'progress': 'cmake'}
+[0.453151] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 61%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.459122] (ydlidar_sdk) JobProgress: {'identifier': 'ydlidar_sdk', 'progress': 'build'}
+[0.459262] (ydlidar_sdk) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/terry/robot_ws/build/ydlidar_sdk', '--', '-j4', '-l4'], 'cwd': '/home/terry/robot_ws/build/ydlidar_sdk', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'terry', 'SSH_CLIENT': '192.168.2.16 59378 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/terry/robot_ws/install/serial_motor_demo_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/terry', 'OLDPWD': '/home/terry/robot_ws/src', 'SSH_TTY': '/dev/pts/4', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/terry/robot_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'terry', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '319', 'PATH': '/home/terry/.local/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/terry/robot_ws/install/serial_motor_demo:/home/terry/robot_ws/install/serial_motor_demo_msgs:/home/terry/robot_ws/install/my_package:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/terry/robot_ws/build/ydlidar_sdk', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.2.16 59378 192.168.2.8 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/terry/robot_ws/build/serial_motor_demo:/home/terry/robot_ws/install/serial_motor_demo/lib/python3.12/site-packages:/home/terry/robot_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/terry/robot_ws/install/serial_motor_demo_msgs:/home/terry/robot_ws/install/my_package:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.460382] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 70%] Built target serial_motor_demo_msgs__rosidl_typesupport_cpp\n'}
+[0.463621] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 79%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.503349] (-) TimerEvent: {}
+[0.507516] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 79%] Built target serial_motor_demo_msgs\n'}
+[0.554243] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 81%] Built target serial_motor_demo_msgs__py\n'}
+[0.603461] (-) TimerEvent: {}
+[0.634019] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 88%] Built target serial_motor_demo_msgs__rosidl_generator_py\n'}
+[0.671998] (ydlidar_sdk) StdoutLine: {'line': b'[ 39%] Built target ydlidar_sdk\n'}
+[0.720920] (-) TimerEvent: {}
+[0.772994] (serial_motor_demo_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[0.773869] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 92%] Built target serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c\n'}
+[0.776629] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 96%] Built target serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c\n'}
+[0.802563] (serial_motor_demo_msgs) StdoutLine: {'line': b'[100%] Built target serial_motor_demo_msgs_s__rosidl_typesupport_c\n'}
+[0.803049] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.806988] (ydlidar_sdk) StdoutLine: {'line': b'[ 43%] Built target et_test\n'}
+[0.825975] (ydlidar_sdk) StdoutLine: {'line': b'[ 47%] Built target gs_ota\n'}
+[0.826440] (-) TimerEvent: {}
+[0.852428] (serial_motor_demo_msgs) StdoutLine: {'line': b'writing serial_motor_demo_msgs.egg-info/PKG-INFO\n'}
+[0.852751] (serial_motor_demo_msgs) StdoutLine: {'line': b'writing dependency_links to serial_motor_demo_msgs.egg-info/dependency_links.txt\n'}
+[0.858982] (ydlidar_sdk) StdoutLine: {'line': b'[ 50%] Built target gs_test\n'}
+[0.860219] (ydlidar_sdk) StdoutLine: {'line': b'[ 54%] Built target gs_restart\n'}
+[0.861808] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.862070] (serial_motor_demo_msgs) StdoutLine: {'line': b'writing top-level names to serial_motor_demo_msgs.egg-info/top_level.txt\n'}
+[0.909232] (ydlidar_sdk) StdoutLine: {'line': b'[ 58%] Built target scl_test\n'}
+[0.927980] (-) TimerEvent: {}
+[0.950113] (ydlidar_sdk) StdoutLine: {'line': b'[ 62%] Built target gs_test2\n'}
+[0.973991] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.974977] (ydlidar_sdk) StdoutLine: {'line': b'[ 66%] Built target sdm18_test\n'}
+[0.982706] (ydlidar_sdk) StdoutLine: {'line': b'[ 69%] Built target sdm_test\n'}
+[1.007818] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.028097] (-) TimerEvent: {}
+[1.042505] (ydlidar_sdk) StdoutLine: {'line': b'[ 73%] Built target tea_test\n'}
+[1.055352] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.059669] (ydlidar_sdk) StdoutLine: {'line': b'[ 77%] Built target tia_test\n'}
+[1.092556] (ydlidar_sdk) StdoutLine: {'line': b'[ 81%] Built target tmini_test\n'}
+[1.094994] (ydlidar_sdk) StdoutLine: {'line': b'[ 84%] Built target tof_test\n'}
+[1.102197] (serial_motor_demo_msgs) StdoutLine: {'line': b"reading manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'\n"}
+[1.104952] (serial_motor_demo_msgs) StdoutLine: {'line': b"writing manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'\n"}
+[1.105648] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.125917] (ydlidar_sdk) StdoutLine: {'line': b'[ 88%] Built target tri_and_gs_test\n'}
+[1.128226] (-) TimerEvent: {}
+[1.159491] (ydlidar_sdk) StdoutLine: {'line': b'[ 92%] Built target tri_restart\n'}
+[1.169000] (ydlidar_sdk) StdoutLine: {'line': b'[ 96%] Built target lidar_c_api_test\n'}
+[1.191501] (ydlidar_sdk) StdoutLine: {'line': b'[100%] Built target tri_test\n'}
+[1.217040] (serial_motor_demo_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_serial_motor_demo_msgs_egg\n'}
+[1.222796] (ydlidar_sdk) CommandEnded: {'returncode': 0}
+[1.229949] (ydlidar_sdk) JobProgress: {'identifier': 'ydlidar_sdk', 'progress': 'install'}
+[1.230220] (-) TimerEvent: {}
+[1.232070] (ydlidar_sdk) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/terry/robot_ws/build/ydlidar_sdk'], 'cwd': '/home/terry/robot_ws/build/ydlidar_sdk', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'terry', 'SSH_CLIENT': '192.168.2.16 59378 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/terry/robot_ws/install/serial_motor_demo_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/terry', 'OLDPWD': '/home/terry/robot_ws/src', 'SSH_TTY': '/dev/pts/4', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/terry/robot_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'terry', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '319', 'PATH': '/home/terry/.local/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/terry/robot_ws/install/serial_motor_demo:/home/terry/robot_ws/install/serial_motor_demo_msgs:/home/terry/robot_ws/install/my_package:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/terry/robot_ws/build/ydlidar_sdk', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.2.16 59378 192.168.2.8 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/terry/robot_ws/build/serial_motor_demo:/home/terry/robot_ws/install/serial_motor_demo/lib/python3.12/site-packages:/home/terry/robot_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/terry/robot_ws/install/serial_motor_demo_msgs:/home/terry/robot_ws/install/my_package:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[1.258121] (serial_motor_demo_msgs) CommandEnded: {'returncode': 0}
+[1.260165] (serial_motor_demo_msgs) JobProgress: {'identifier': 'serial_motor_demo_msgs', 'progress': 'install'}
+[1.260454] (serial_motor_demo_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/terry/robot_ws/build/serial_motor_demo_msgs'], 'cwd': '/home/terry/robot_ws/build/serial_motor_demo_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'terry', 'SSH_CLIENT': '192.168.2.16 59378 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/terry/robot_ws/install/serial_motor_demo_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/terry', 'OLDPWD': '/home/terry/robot_ws/src', 'SSH_TTY': '/dev/pts/4', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/terry/robot_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'terry', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '319', 'PATH': '/home/terry/.local/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/terry/robot_ws/install/serial_motor_demo:/home/terry/robot_ws/install/serial_motor_demo_msgs:/home/terry/robot_ws/install/my_package:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/terry/robot_ws/build/serial_motor_demo_msgs', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.2.16 59378 192.168.2.8 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/terry/robot_ws/build/serial_motor_demo:/home/terry/robot_ws/install/serial_motor_demo/lib/python3.12/site-packages:/home/terry/robot_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/terry/robot_ws/install/serial_motor_demo_msgs:/home/terry/robot_ws/install/my_package:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/terry/robot_ws/install/serial_motor_demo:/opt/ros/jazzy'}), 'shell': False}
+[1.262315] (ydlidar_sdk) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.263835] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/include/core/base/datatype.h\n'}
+[1.264325] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/include/core/base/locker.h\n'}
+[1.264461] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/include/core/base/thread.h\n'}
+[1.264580] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/include/core/base/timer.h\n'}
+[1.266588] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/include/core/base/typedef.h\n'}
+[1.270674] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/include/core/base/utils.h\n'}
+[1.271732] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/include/core/base/v8stdint.h\n'}
+[1.272913] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/include/core/base/ydlidar.h\n'}
+[1.273780] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/include/core/common/ChannelDevice.h\n'}
+[1.274074] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/include/core/common/DriverInterface.h\n'}
+[1.274303] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/include/core/common/ydlidar_datatype.h\n'}
+[1.274437] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/include/core/common/ydlidar_def.h\n'}
+[1.274557] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/include/core/common/ydlidar_help.h\n'}
+[1.274691] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/include/core/common/ydlidar_protocol.h\n'}
+[1.274820] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/include/core/json/cJSON.h\n'}
+[1.277463] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/include/core/math/angles.h\n'}
+[1.278163] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/include/core/network/ActiveSocket.h\n'}
+[1.278323] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/include/core/network/PassiveSocket.h\n'}
+[1.278452] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/include/core/network/SimpleSocket.h\n'}
+[1.278572] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/include/core/network/StatTimer.h\n'}
+[1.278728] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/include/core/serial/common.h\n'}
+[1.278966] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/include/core/serial/serial.h\n'}
+[1.279115] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.279281] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/include/core/serial/impl/unix/lock.h\n'}
+[1.279429] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/include/core/serial/impl/unix/unix.h\n'}
+[1.279561] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/include/core/serial/impl/unix/unix_serial.h\n'}
+[1.279685] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/include/src/CYdLidar.h\n'}
+[1.279803] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.284546] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/include/src/DTSLidarDriver.h\n'}
+[1.284879] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/include/src/ETLidarDriver.h\n'}
+[1.285459] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/include/src/GSLidarDriver.h\n'}
+[1.286711] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/include/src/SDMLidarDriver.h\n'}
+[1.287114] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/include/src/TiaLidarDriver.h\n'}
+[1.288404] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/include/src/YDlidarDriver.h\n'}
+[1.289227] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/include/src/ydlidar_sdk.h\n'}
+[1.291889] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/include/src/filters/FilterInterface.h\n'}
+[1.292379] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/include/src/filters/NoiseFilter.h\n'}
+[1.292538] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/include/src/filters/StrongLightFilter.h\n'}
+[1.292696] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/include/ydlidar_config.h\n'}
+[1.292967] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/lib/libydlidar_sdk.a\n'}
+[1.293260] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.294635] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.297305] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/rosidl_interfaces/serial_motor_demo_msgs\n'}
+[1.297612] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.json\n'}
+[1.297801] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.json\n'}
+[1.298008] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.json\n'}
+[1.298170] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__functions.h\n'}
+[1.298337] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/lib/pkgconfig/YDLIDAR_SDK.pc\n'}
+[1.298533] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__struct.h\n'}
+[1.300936] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.h\n'}
+[1.301158] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/lib/cmake/ydlidar_sdk/ydlidar_sdkConfig.cmake\n'}
+[1.301333] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__functions.h\n'}
+[1.301493] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/lib/cmake/ydlidar_sdk/ydlidar_sdkTargets.cmake\n'}
+[1.301844] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__struct.h\n'}
+[1.303235] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__type_support.h\n'}
+[1.303401] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/lib/cmake/ydlidar_sdk/ydlidar_sdkConfigVersion.cmake\n'}
+[1.303570] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__functions.h\n'}
+[1.303714] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__struct.h\n'}
+[1.305989] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.h\n'}
+[1.306583] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/encoder_vals.h\n'}
+[1.306808] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_command.h\n'}
+[1.307110] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/FindYDLIDAR_SDK.cmake\n'}
+[1.307398] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK\n'}
+[1.307543] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/common\n'}
+[1.307706] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_vels.h\n'}
+[1.308929] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.309212] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/library_path.sh\n'}
+[1.311184] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/common/ydlidar_base.cmake\n'}
+[1.311520] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/library_path.dsv\n'}
+[1.311680] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/common/ydlidar_parse.cmake\n'}
+[1.312923] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_c.h\n'}
+[1.314032] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/install_package.cmake\n'}
+[1.315101] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/cmake_uninstall.cmake.in\n'}
+[1.315294] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/PackageConfigVersion.cmake.in\n'}
+[1.315440] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/PkgConfig.pc.in\n'}
+[1.315555] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/FindPackage.cmake.in\n'}
+[1.315662] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/PackageConfig.cmake.in\n'}
+[1.315778] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/script_show_final_summary.cmake\n'}
+[1.315901] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/LICENSE.txt\n'}
+[1.316016] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/README.md\n'}
+[1.316123] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc\n'}
+[1.316222] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_c.h\n'}
+[1.316352] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_c.h\n'}
+[1.316458] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.316599] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_c.h\n'}
+[1.316701] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_c.h\n'}
+[1.316811] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_c.h\n'}
+[1.321082] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.321267] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs\n'}
+[1.321425] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Hardware_FAQs_cn.md\n'}
+[1.321553] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Software_FAQs_cn.md\n'}
+[1.321680] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Software_FAQs.md\n'}
+[1.321800] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/General_FAQs.md\n'}
+[1.325209] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__builder.hpp\n'}
+[1.325433] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Hardware_FAQs.md\n'}
+[1.325582] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/General_FAQs_cn.md\n'}
+[1.325701] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__struct.hpp\n'}
+[1.325897] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/README.md\n'}
+[1.326050] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__traits.hpp\n'}
+[1.326174] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.hpp\n'}
+[1.326297] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__builder.hpp\n'}
+[1.326470] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__struct.hpp\n'}
+[1.326622] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar_SDK_Communication_Protocol.pdf\n'}
+[1.326757] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__traits.hpp\n'}
+[1.333243] (-) TimerEvent: {}
+[1.333487] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__type_support.hpp\n'}
+[1.333764] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/Diagram.md\n'}
+[1.333963] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar-SDK-Communication-Protocol.html\n'}
+[1.334096] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar-SDK-Communication-Protocol.pdf\n'}
+[1.336972] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar-SDK-Communication-Protocol.md\n'}
+[1.337360] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto\n'}
+[1.337494] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_create_a_csharp_project.md\n'}
+[1.337636] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_build_and_install.md\n'}
+[1.337766] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__builder.hpp\n'}
+[1.337974] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__struct.hpp\n'}
+[1.338141] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__traits.hpp\n'}
+[1.338309] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.hpp\n'}
+[1.338453] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/encoder_vals.hpp\n'}
+[1.338612] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_command.hpp\n'}
+[1.342097] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_vels.hpp\n'}
+[1.345144] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[1.345338] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.345454] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_create_a_pull.md\n'}
+[1.345593] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/README.md\n'}
+[1.345741] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.345900] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_solve_slow_pull_from_cn.md\n'}
+[1.346092] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.346242] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_gerenrate_vs_project_by_cmake.md\n'}
+[1.346367] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.346486] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_build_and_debug_using_vscode.md\n'}
+[1.346599] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_create_a_udev_rules.md\n'}
+[1.346724] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images\n'}
+[1.346851] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/ydlidar_lidar_monitor.png\n'}
+[1.346999] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.347154] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.347284] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_running.png\n'}
+[1.347444] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/sdk_scanning.png\n'}
+[1.347557] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/sdk_init.png\n'}
+[1.347674] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_build.png\n'}
+[1.354004] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/vscode\n'}
+[1.354362] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/vscode/run_tasks.jpg\n'}
+[1.354500] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.354650] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/pythonpath.sh\n'}
+[1.354766] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/pythonpath.dsv\n'}
+[1.354913] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[1.355035] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[1.355133] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[1.355286] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[1.355392] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/__init__.py\n'}
+[1.355502] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/vscode/tasks.png\n'}
+[1.355633] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/ttyUSB0.png\n'}
+[1.355787] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_project.png\n'}
+[1.355960] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_exception.png\n'}
+[1.356087] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/ttyUSB1.png\n'}
+[1.356212] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/cpack.png\n'}
+[1.356315] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/sequence.png\n'}
+[1.356433] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[1.356576] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.363071] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.363246] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/__init__.py\n'}
+[1.363345] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/_encoder_vals.py\n'}
+[1.363475] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/_encoder_vals_s.c\n'}
+[1.363628] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/_motor_command.py\n'}
+[1.363741] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/_motor_command_s.c\n'}
+[1.363878] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/_motor_vels.py\n'}
+[1.364049] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/_motor_vels_s.c\n'}
+[1.364228] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.so\n'}
+[1.364357] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[1.364475] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[1.364570] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[1.364658] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[1.364755] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.so\n'}
+[1.364877] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_library.png\n'}
+[1.365011] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.idl\n'}
+[1.365113] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/Tutorials.md\n'}
+[1.365219] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/SDK.pdf\n'}
+[1.365317] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.idl\n'}
+[1.365403] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.idl\n'}
+[1.365496] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.msg\n'}
+[1.365585] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.msg\n'}
+[1.365670] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.msg\n'}
+[1.365754] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/package_run_dependencies/serial_motor_demo_msgs\n'}
+[1.365884] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/parent_prefix_path/serial_motor_demo_msgs\n'}
+[1.366002] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/ament_prefix_path.sh\n'}
+[1.366093] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/ament_prefix_path.dsv\n'}
+[1.366180] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/path.sh\n'}
+[1.366267] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/path.dsv\n'}
+[1.366352] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/README.md\n'}
+[1.366483] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLIDAR_SDK_API_for_Developers.md\n'}
+[1.366570] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.bash\n'}
+[1.366659] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.sh\n'}
+[1.366744] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.zsh\n'}
+[1.366839] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.dsv\n'}
+[1.370342] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/terry/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv\n'}
+[1.370482] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials\n'}
+[1.370599] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_tutorial_c++.md\n'}
+[1.370697] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_tutorial_python.md\n'}
+[1.370793] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_tutorial_c.md\n'}
+[1.373036] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/examine_the_simple_lidar_tutorial.md\n'}
+[1.373213] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_network_adapter_tutorial_c++.md\n'}
+[1.373326] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/quickstart\n'}
+[1.373417] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/quickstart/ydlidar_sdk_software_installation_guide.md\n'}
+[1.373508] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/quickstart/README.md\n'}
+[1.373601] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/Dataset.md\n'}
+[1.373689] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images\n'}
+[1.373774] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/system_workflow.png\n'}
+[1.373890] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/EAI.png\n'}
+[1.373985] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sdk_architecture.png\n'}
+[1.374070] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sdk_scanning.png\n'}
+[1.374155] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sdk_init.png\n'}
+[1.374238] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/YDLidar.png\n'}
+[1.374325] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/frame.png\n'}
+[1.374410] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/angle_q2.png\n'}
+[1.374492] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/FlowChart.png\n'}
+[1.374596] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/frame_intensity.png\n'}
+[1.374681] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/YDLidar.jpg\n'}
+[1.374790] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/communication_mechanism.png\n'}
+[1.378350] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sequence.png\n'}
+[1.378477] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/startup/initenv.sh\n'}
+[1.378569] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/bin/et_test\n'}
+[1.378656] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/bin/gs_ota\n'}
+[1.378744] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/bin/gs_restart\n'}
+[1.378839] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/bin/gs_test\n'}
+[1.378944] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/bin/gs_test2\n'}
+[1.379031] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/bin/scl_test\n'}
+[1.379114] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/bin/sdm18_test\n'}
+[1.379202] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/packages/serial_motor_demo_msgs\n'}
+[1.379310] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[1.379394] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.379485] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/bin/sdm_test\n'}
+[1.379572] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.379701] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.379801] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.379929] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.380064] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/bin/tea_test\n'}
+[1.380165] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.380250] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgsConfig.cmake\n'}
+[1.380332] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgsConfig-version.cmake\n'}
+[1.380438] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terry/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.xml\n'}
+[1.380522] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/terry/robot_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_c.so\n'}
+[1.380606] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/terry/robot_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[1.380691] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/terry/robot_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_c.so\n'}
+[1.380774] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/bin/tia_test\n'}
+[1.380887] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/terry/robot_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_c.so\n'}
+[1.380992] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/terry/robot_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.381082] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/terry/robot_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[1.381165] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/bin/tmini_test\n'}
+[1.381257] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/terry/robot_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_cpp.so\n'}
+[1.381360] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/bin/tof_test\n'}
+[1.381449] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/bin/tri_and_gs_test\n'}
+[1.381543] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/bin/tri_restart\n'}
+[1.381633] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/bin/tri_test\n'}
+[1.381718] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/terry/robot_ws/install/ydlidar_sdk/bin/lidar_c_api_test\n'}
+[1.381804] (ydlidar_sdk) CommandEnded: {'returncode': 0}
+[1.388892] (ydlidar_sdk) JobEnded: {'identifier': 'ydlidar_sdk', 'rc': 0}
+[1.411931] (serial_motor_demo_msgs) StdoutLine: {'line': b"Listing '/home/terry/robot_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs'...\n"}
+[1.412315] (serial_motor_demo_msgs) StdoutLine: {'line': b"Listing '/home/terry/robot_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg'...\n"}
+[1.420929] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.431038] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/terry/robot_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_py.so\n'}
+[1.433374] (-) TimerEvent: {}
+[1.434821] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/terry/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_cExport.cmake\n'}
+[1.436391] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/terry/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.439815] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/terry/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.440201] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/terry/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.440431] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/terry/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.441698] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/terry/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.442598] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/terry/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cExport.cmake\n'}
+[1.444377] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/terry/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.444559] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/terry/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_cppExport.cmake\n'}
+[1.444702] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/terry/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.444867] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/terry/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.445102] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/terry/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.445234] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/terry/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.445346] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/terry/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[1.445476] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/terry/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.445620] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/terry/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_pyExport.cmake\n'}
+[1.445778] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/terry/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.449468] (serial_motor_demo_msgs) CommandEnded: {'returncode': 0}
+[1.509337] (serial_motor_demo_msgs) JobEnded: {'identifier': 'serial_motor_demo_msgs', 'rc': 0}
+[1.510973] (serial_motor_demo) JobStarted: {'identifier': 'serial_motor_demo'}
+[1.528852] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[1.533456] (-) TimerEvent: {}
+[1.602656] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)\n'}
+[1.633678] (-) TimerEvent: {}
+[1.645211] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)\n'}
+[1.691236] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.733871] (-) TimerEvent: {}
+[1.835116] (-) TimerEvent: {}
+[1.936932] (-) TimerEvent: {}
+[1.955924] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.963630] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.964877] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/terry/robot_ws/src/ydlidar_ros2_driver/src\n'}
+[1.965788] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.971532] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.973793] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.976520] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.977795] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[1.980399] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.982141] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.988204] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.988518] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.990169] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.994145] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Configuring done (1.9s)\n'}
+[2.038916] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.039229] (-) TimerEvent: {}
+[2.044905] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Build files have been written to: /home/terry/robot_ws/build/ydlidar_ros2_driver\n'}
+[2.063852] (ydlidar_ros2_driver) CommandEnded: {'returncode': 0}
+[2.066560] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'build'}
+[2.066629] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/terry/robot_ws/build/ydlidar_ros2_driver', '--', '-j4', '-l4'], 'cwd': '/home/terry/robot_ws/build/ydlidar_ros2_driver', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'terry', 'SSH_CLIENT': '192.168.2.16 59378 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/terry/robot_ws/install/serial_motor_demo_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/terry', 'OLDPWD': '/home/terry/robot_ws/src', 'SSH_TTY': '/dev/pts/4', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/terry/robot_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'terry', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '319', 'PATH': '/home/terry/.local/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/terry/robot_ws/install/serial_motor_demo:/home/terry/robot_ws/install/serial_motor_demo_msgs:/home/terry/robot_ws/install/my_package:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/terry/robot_ws/build/ydlidar_ros2_driver', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.2.16 59378 192.168.2.8 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/terry/robot_ws/build/serial_motor_demo:/home/terry/robot_ws/install/serial_motor_demo/lib/python3.12/site-packages:/home/terry/robot_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/terry/robot_ws/install/serial_motor_demo_msgs:/home/terry/robot_ws/install/my_package:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/terry/robot_ws/install/serial_motor_demo:/opt/ros/jazzy'}), 'shell': False}
+[2.139367] (-) TimerEvent: {}
+[2.195751] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_node.dir/src/ydlidar_ros2_driver_node.cpp.o\x1b[0m\n'}
+[2.229160] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_client.dir/src/ydlidar_ros2_driver_client.cpp.o\x1b[0m\n'}
+[2.239503] (-) TimerEvent: {}
+[2.342936] (-) TimerEvent: {}
+[2.443472] (-) TimerEvent: {}
+[2.544319] (-) TimerEvent: {}
+[2.650934] (-) TimerEvent: {}
+[2.753894] (-) TimerEvent: {}
+[2.854394] (-) TimerEvent: {}
+[2.954906] (-) TimerEvent: {}
+[3.055514] (-) TimerEvent: {}
+[3.156151] (-) TimerEvent: {}
+[3.170493] (serial_motor_demo) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/terry/robot_ws/build/serial_motor_demo/build', '--no-deps', 'symlink_data'], 'cwd': '/home/terry/robot_ws/build/serial_motor_demo', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'terry', 'SSH_CLIENT': '192.168.2.16 59378 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/terry/robot_ws/install/serial_motor_demo_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/terry', 'OLDPWD': '/home/terry/robot_ws/src', 'SSH_TTY': '/dev/pts/4', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/terry/robot_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'terry', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '319', 'PATH': '/home/terry/.local/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/terry/robot_ws/install/serial_motor_demo:/home/terry/robot_ws/install/serial_motor_demo_msgs:/home/terry/robot_ws/install/my_package:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/terry/robot_ws/build/serial_motor_demo', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.2.16 59378 192.168.2.8 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/terry/robot_ws/build/serial_motor_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/terry/robot_ws/install/serial_motor_demo/lib/python3.12/site-packages:/home/terry/robot_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages:/home/terry/robot_ws/build/serial_motor_demo:/home/terry/robot_ws/install/serial_motor_demo/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/terry/robot_ws/install/serial_motor_demo_msgs:/home/terry/robot_ws/install/my_package:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[3.256272] (-) TimerEvent: {}
+[3.357923] (-) TimerEvent: {}
+[3.440757] (serial_motor_demo) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/dist.py:744: SetuptoolsDeprecationWarning: Invalid dash-separated options\n'}
+[3.441176] (serial_motor_demo) StderrLine: {'line': b'!!\n'}
+[3.441296] (serial_motor_demo) StderrLine: {'line': b'\n'}
+[3.441395] (serial_motor_demo) StderrLine: {'line': b'        ********************************************************************************\n'}
+[3.441490] (serial_motor_demo) StderrLine: {'line': b"        Usage of dash-separated 'script-dir' will not be supported in future\n"}
+[3.441578] (serial_motor_demo) StderrLine: {'line': b"        versions. Please use the underscore name 'script_dir' instead.\n"}
+[3.441664] (serial_motor_demo) StderrLine: {'line': b'\n'}
+[3.441771] (serial_motor_demo) StderrLine: {'line': b'        This deprecation is overdue, please update your project and remove deprecated\n'}
+[3.441889] (serial_motor_demo) StderrLine: {'line': b'        calls to avoid build errors in the future.\n'}
+[3.441987] (serial_motor_demo) StderrLine: {'line': b'\n'}
+[3.442080] (serial_motor_demo) StderrLine: {'line': b'        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.\n'}
+[3.442171] (serial_motor_demo) StderrLine: {'line': b'        ********************************************************************************\n'}
+[3.442265] (serial_motor_demo) StderrLine: {'line': b'\n'}
+[3.442356] (serial_motor_demo) StderrLine: {'line': b'!!\n'}
+[3.442462] (serial_motor_demo) StderrLine: {'line': b'  opt = self.warn_dash_deprecation(opt, section)\n'}
+[3.460912] (-) TimerEvent: {}
+[3.561344] (-) TimerEvent: {}
+[3.663310] (-) TimerEvent: {}
+[3.764213] (-) TimerEvent: {}
+[3.835115] (serial_motor_demo) StdoutLine: {'line': b'running develop\n'}
+[3.864329] (-) TimerEvent: {}
+[3.964713] (-) TimerEvent: {}
+[4.065510] (-) TimerEvent: {}
+[4.166184] (-) TimerEvent: {}
+[4.190072] (serial_motor_demo) StdoutLine: {'line': b'running egg_info\n'}
+[4.220644] (serial_motor_demo) StdoutLine: {'line': b'writing serial_motor_demo.egg-info/PKG-INFO\n'}
+[4.221806] (serial_motor_demo) StdoutLine: {'line': b'writing dependency_links to serial_motor_demo.egg-info/dependency_links.txt\n'}
+[4.227757] (serial_motor_demo) StdoutLine: {'line': b'writing entry points to serial_motor_demo.egg-info/entry_points.txt\n'}
+[4.228926] (serial_motor_demo) StdoutLine: {'line': b'writing requirements to serial_motor_demo.egg-info/requires.txt\n'}
+[4.230174] (serial_motor_demo) StdoutLine: {'line': b'writing top-level names to serial_motor_demo.egg-info/top_level.txt\n'}
+[4.266311] (-) TimerEvent: {}
+[4.302432] (serial_motor_demo) StdoutLine: {'line': b"reading manifest file 'serial_motor_demo.egg-info/SOURCES.txt'\n"}
+[4.309904] (serial_motor_demo) StdoutLine: {'line': b"writing manifest file 'serial_motor_demo.egg-info/SOURCES.txt'\n"}
+[4.344580] (serial_motor_demo) StdoutLine: {'line': b'running build_ext\n'}
+[4.345978] (serial_motor_demo) StdoutLine: {'line': b'Creating /home/terry/robot_ws/install/serial_motor_demo/lib/python3.12/site-packages/serial-motor-demo.egg-link (link to .)\n'}
+[4.348004] (serial_motor_demo) StdoutLine: {'line': b'Installing driver script to /home/terry/robot_ws/install/serial_motor_demo/lib/serial_motor_demo\n'}
+[4.349175] (serial_motor_demo) StdoutLine: {'line': b'Installing gui script to /home/terry/robot_ws/install/serial_motor_demo/lib/serial_motor_demo\n'}
+[4.350311] (serial_motor_demo) StdoutLine: {'line': b'\n'}
+[4.351700] (serial_motor_demo) StdoutLine: {'line': b'Installed /home/terry/robot_ws/build/serial_motor_demo\n'}
+[4.352966] (serial_motor_demo) StdoutLine: {'line': b'running symlink_data\n'}
+[4.366447] (-) TimerEvent: {}
+[4.463607] (serial_motor_demo) CommandEnded: {'returncode': 0}
+[4.466534] (-) TimerEvent: {}
+[4.488987] (serial_motor_demo) JobEnded: {'identifier': 'serial_motor_demo', 'rc': 0}
+[4.566661] (-) TimerEvent: {}
+[4.667073] (-) TimerEvent: {}
+[4.767616] (-) TimerEvent: {}
+[4.868118] (-) TimerEvent: {}
+[4.968670] (-) TimerEvent: {}
+[5.069095] (-) TimerEvent: {}
+[5.169490] (-) TimerEvent: {}
+[5.269890] (-) TimerEvent: {}
+[5.370293] (-) TimerEvent: {}
+[5.470743] (-) TimerEvent: {}
+[5.571127] (-) TimerEvent: {}
+[5.671501] (-) TimerEvent: {}
+[5.771907] (-) TimerEvent: {}
+[5.872298] (-) TimerEvent: {}
+[5.972680] (-) TimerEvent: {}
+[6.073081] (-) TimerEvent: {}
+[6.173469] (-) TimerEvent: {}
+[6.273913] (-) TimerEvent: {}
+[6.374343] (-) TimerEvent: {}
+[6.414532] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/terry/robot_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[6.415054] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/terry/robot_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:135:54:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krequest_header\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.415391] (ydlidar_ros2_driver) StderrLine: {'line': b'  135 |     [&laser](\x1b[01;35m\x1b[Kconst std::shared_ptr<rmw_request_id_t> request_header\x1b[m\x1b[K,\n'}
+[6.415556] (ydlidar_ros2_driver) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.415783] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/terry/robot_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:136:56:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.416028] (ydlidar_ros2_driver) StderrLine: {'line': b'  136 |   \x1b[01;35m\x1b[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req\x1b[m\x1b[K,\n'}
+[6.416159] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[6.416269] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/terry/robot_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:137:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kresponse\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.416378] (ydlidar_ros2_driver) StderrLine: {'line': b'  137 |   \x1b[01;35m\x1b[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response\x1b[m\x1b[K) -> bool\n'}
+[6.416478] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[6.434049] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/terry/robot_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[6.434353] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/terry/robot_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:145:54:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krequest_header\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.434503] (ydlidar_ros2_driver) StderrLine: {'line': b'  145 |     [&laser](\x1b[01;35m\x1b[Kconst std::shared_ptr<rmw_request_id_t> request_header\x1b[m\x1b[K,\n'}
+[6.434610] (ydlidar_ros2_driver) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.434708] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/terry/robot_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:146:56:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.434811] (ydlidar_ros2_driver) StderrLine: {'line': b'  146 |   \x1b[01;35m\x1b[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req\x1b[m\x1b[K,\n'}
+[6.434991] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[6.435116] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/terry/robot_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:147:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kresponse\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.435251] (ydlidar_ros2_driver) StderrLine: {'line': b'  147 |   \x1b[01;35m\x1b[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response\x1b[m\x1b[K) -> bool\n'}
+[6.435353] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[6.437611] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/terry/robot_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[01;32m\x1b[K main\x1b[m\x1b[K(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.437911] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/terry/robot_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:180:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kp\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.438050] (ydlidar_ros2_driver) StderrLine: {'line': b'  180 |         const auto& \x1b[01;35m\x1b[Kp\x1b[m\x1b[K = scan.points.at(i);\n'}
+[6.438147] (ydlidar_ros2_driver) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.447491] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/terry/robot_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:188:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klaser_pub\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.448003] (ydlidar_ros2_driver) StderrLine: {'line': b'  188 |       \x1b[01;31m\x1b[Klaser_pub\x1b[m\x1b[K->publish(*scan_msg);\n'}
+[6.448144] (ydlidar_ros2_driver) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[6.450502] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/terry/robot_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:111:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kinvalid_range_is_inf\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.450884] (ydlidar_ros2_driver) StderrLine: {'line': b'  111 |   bool \x1b[01;35m\x1b[Kinvalid_range_is_inf\x1b[m\x1b[K = node->declare_parameter<bool>("invalid_range_is_inf", false);\n'}
+[6.451055] (ydlidar_ros2_driver) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.474462] (-) TimerEvent: {}
+[6.575045] (-) TimerEvent: {}
+[6.675450] (-) TimerEvent: {}
+[6.776949] (-) TimerEvent: {}
+[6.877404] (-) TimerEvent: {}
+[6.979118] (-) TimerEvent: {}
+[7.079857] (-) TimerEvent: {}
+[7.180271] (-) TimerEvent: {}
+[7.280684] (-) TimerEvent: {}
+[7.381098] (-) TimerEvent: {}
+[7.481495] (-) TimerEvent: {}
+[7.582059] (-) TimerEvent: {}
+[7.682476] (-) TimerEvent: {}
+[7.782912] (-) TimerEvent: {}
+[7.851661] (ydlidar_ros2_driver) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ydlidar_ros2_driver_node.dir/build.make:76: CMakeFiles/ydlidar_ros2_driver_node.dir/src/ydlidar_ros2_driver_node.cpp.o] Error 1\n'}
+[7.852432] (ydlidar_ros2_driver) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/ydlidar_ros2_driver_node.dir/all] Error 2\n'}
+[7.852598] (ydlidar_ros2_driver) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[7.882993] (-) TimerEvent: {}
+[7.983304] (-) TimerEvent: {}
+[8.083669] (-) TimerEvent: {}
+[8.184059] (-) TimerEvent: {}
+[8.284416] (-) TimerEvent: {}
+[8.384774] (-) TimerEvent: {}
+[8.485166] (-) TimerEvent: {}
+[8.585509] (-) TimerEvent: {}
+[8.685886] (-) TimerEvent: {}
+[8.786276] (-) TimerEvent: {}
+[8.886678] (-) TimerEvent: {}
+[8.987097] (-) TimerEvent: {}
+[9.087517] (-) TimerEvent: {}
+[9.188057] (-) TimerEvent: {}
+[9.288428] (-) TimerEvent: {}
+[9.388800] (-) TimerEvent: {}
+[9.489194] (-) TimerEvent: {}
+[9.589572] (-) TimerEvent: {}
+[9.689983] (-) TimerEvent: {}
+[9.790356] (-) TimerEvent: {}
+[9.890790] (-) TimerEvent: {}
+[9.991332] (-) TimerEvent: {}
+[10.091745] (-) TimerEvent: {}
+[10.192119] (-) TimerEvent: {}
+[10.292498] (-) TimerEvent: {}
+[10.392872] (-) TimerEvent: {}
+[10.493232] (-) TimerEvent: {}
+[10.593574] (-) TimerEvent: {}
+[10.693920] (-) TimerEvent: {}
+[10.794270] (-) TimerEvent: {}
+[10.894618] (-) TimerEvent: {}
+[10.994980] (-) TimerEvent: {}
+[11.095356] (-) TimerEvent: {}
+[11.195775] (-) TimerEvent: {}
+[11.296260] (-) TimerEvent: {}
+[11.396708] (-) TimerEvent: {}
+[11.497177] (-) TimerEvent: {}
+[11.597568] (-) TimerEvent: {}
+[11.697943] (-) TimerEvent: {}
+[11.798289] (-) TimerEvent: {}
+[11.898628] (-) TimerEvent: {}
+[11.998990] (-) TimerEvent: {}
+[12.099341] (-) TimerEvent: {}
+[12.199690] (-) TimerEvent: {}
+[12.300051] (-) TimerEvent: {}
+[12.400392] (-) TimerEvent: {}
+[12.500741] (-) TimerEvent: {}
+[12.601101] (-) TimerEvent: {}
+[12.701445] (-) TimerEvent: {}
+[12.801792] (-) TimerEvent: {}
+[12.902170] (-) TimerEvent: {}
+[13.002506] (-) TimerEvent: {}
+[13.102887] (-) TimerEvent: {}
+[13.203247] (-) TimerEvent: {}
+[13.303599] (-) TimerEvent: {}
+[13.403955] (-) TimerEvent: {}
+[13.504345] (-) TimerEvent: {}
+[13.604738] (-) TimerEvent: {}
+[13.705138] (-) TimerEvent: {}
+[13.805538] (-) TimerEvent: {}
+[13.905915] (-) TimerEvent: {}
+[14.006315] (-) TimerEvent: {}
+[14.106704] (-) TimerEvent: {}
+[14.207160] (-) TimerEvent: {}
+[14.307637] (-) TimerEvent: {}
+[14.408112] (-) TimerEvent: {}
+[14.508592] (-) TimerEvent: {}
+[14.609036] (-) TimerEvent: {}
+[14.709463] (-) TimerEvent: {}
+[14.722942] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable ydlidar_ros2_driver_client\x1b[0m\n'}
+[14.809579] (-) TimerEvent: {}
+[14.913019] (-) TimerEvent: {}
+[15.013806] (-) TimerEvent: {}
+[15.114810] (-) TimerEvent: {}
+[15.215936] (-) TimerEvent: {}
+[15.316417] (-) TimerEvent: {}
+[15.416782] (-) TimerEvent: {}
+[15.517179] (-) TimerEvent: {}
+[15.579527] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 75%] Built target ydlidar_ros2_driver_client\n'}
+[15.582015] (ydlidar_ros2_driver) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[15.585324] (ydlidar_ros2_driver) CommandEnded: {'returncode': 2}
+[15.593141] (ydlidar_ros2_driver) JobEnded: {'identifier': 'ydlidar_ros2_driver', 'rc': 2}
+[15.603837] (-) EventReactorShutdown: {}
